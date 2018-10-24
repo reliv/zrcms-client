@@ -1,0 +1,13 @@
+.page-revision-list-container .btn,
+.page-revision-list-container ul {
+    min-width: 25em;
+}
+.page-revision-list-container .selected-page-version {
+    display: inline-block;
+    float: left;
+}
+.page-revision-list-container .btn .caret {
+    display: inline-block;
+    float: right;
+    margin: .5em 0 .5em 0;
+}

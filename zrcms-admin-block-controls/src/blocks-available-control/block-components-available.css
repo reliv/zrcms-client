@@ -1,0 +1,137 @@
+.admin-tools-block-components-available-container {
+    position: absolute;
+}
+
+.admin-tools-block-components-available {
+    display: block;
+    position: fixed;
+    min-width: 270px;
+    z-index: 10000;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.admin-tools-block-components-available[data-show="true"] {
+    display: block;
+}
+
+.admin-tools-block-components-available[data-show="false"] {
+    display: none;
+}
+
+/* Menu */
+.admin-tools-block-components-available .block-component-image img {
+    height: 40px;
+    width: 40px;
+    margin-right: 1em;
+    min-height: 40px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.admin-tools-block-components-available.panel {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.admin-tools-block-components-available.panel .panel-heading {
+    cursor: move;
+    position: relative;
+    background-color: rgba(238, 238, 238, .95);
+    overflow: hidden;
+    width: 100%;
+    min-width: 270px;
+    padding: 5px 10px 5px 10px;
+}
+
+.admin-tools-block-components-available.panel .panel-heading .panel-heading-search {
+    display: block;
+}
+
+.admin-tools-block-components-available.panel .panel-heading .panel-heading-search input {
+    display: block;
+    min-width: 220px;
+    margin-top: 3px;
+}
+
+.admin-tools-block-components-available.panel .panel-heading .panel-minify {
+    display: inline-block;
+    color: #666666;
+    cursor: default;
+    font-size: 18px;
+    padding: 15px 10px 5px 0;
+}
+
+.admin-tools-block-components-available.panel .panel-body {
+    overflow-y: scroll;
+    min-height: 60px;
+    max-height: 400px;
+    width: 270px;
+    min-width: 270px;
+    max-width: 510px;
+    resize: both;
+    overflow-x: hidden;
+    /*box-shadow: inset 0 0 5px 2px rgba(255,0,0,1);*/
+}
+
+.admin-tools-block-components-available.panel .panel-body.hide-list {
+    display: none;
+}
+
+.admin-tools-block-components-available.panel .panel-body.show-list {
+    display: block;
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-item {
+    background-color: rgba(255, 255, 255, 0);
+    display: table;
+    float: left;
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-item[data-show="true"] {
+    display: table;
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-item[data-show="false"] {
+    display: none;
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-info {
+    display: table-row;
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-info .block-component-image {
+    display: table-cell;
+    vertical-align: top;
+    padding: 2px;
+    width: 44px;
+    max-width: 44px;
+    /*box-shadow: 0 0 0 1px #ff0000;*/
+}
+
+.admin-tools-block-components-available.panel .panel-body .block-component-info .block-component-label {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px 2px 2px 2px;
+    width: 196px;
+    max-width: 196px;
+    /*box-shadow: 0 0 0 1px #ff0000;*/
+}
+
+/*.block-available-drag-hider {*/
+    /*position: absolute;*/
+    /*cursor: move;*/
+    /*box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*padding: 15px;*/
+    /*max-width: 340px;*/
+/*}*/
+
+/*.block-available-drag-embryo .block-component-item-drag {*/
+    /*display: block;*/
+    /*max-width: 300px;*/
+/*}*/
+
+/*.block-available-drag-embryo .block-component-item-drag .block-component-label {*/
+    /*display: block;*/
+    /*font-weight: bold;*/
+/*}*/

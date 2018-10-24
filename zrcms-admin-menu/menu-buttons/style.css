@@ -1,0 +1,7 @@
+.admin-menu-buttons .panel-button-container {
+    display: inline-block;
+}
+
+.admin-menu-buttons .panel-button-container div {
+    margin: 0 0 0 5px;
+}

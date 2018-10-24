@@ -1,0 +1,113 @@
+.admin-tools-block-controls {
+    color: #000000;
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    top: -.8em;
+    left: 0;
+    width: 100%;
+    height: 2em;
+    /*z-index: 20000;*/
+}
+
+.admin-tools-block-controls .admin-tools-block-controls-handle {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px 1px rgba(127, 127, 127, 1);
+    font-family: 'Glyphicons Halflings';
+    padding: .3em .5em;
+    width: 2em;
+    height: 2em;
+}
+
+.admin-tools-block-controls .admin-tools-block-controls-handle.sortable-menu {
+    cursor: move;
+    float: left;
+}
+
+.admin-tools-block-controls .admin-tools-block-controls-handle.sortable-menu .icon:after {
+    content: "\e068";
+}
+
+/* Plugin Menu Overlays Drop Down */
+/* Container Menu */
+.admin-tools-block-controls .admin-tools-block-controls-handle.block-menu {
+    float: right;
+}
+
+.admin-tools-block-controls .admin-tools-block-controls-handle.block-menu .icon:after {
+    content: "\e012";
+}
+
+.admin-tools-block-controls .container-menu {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 1px 1px rgba(127, 127, 127, 1);
+    border-radius: 5px;
+    color: #000000;
+    list-style: none;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding: .5em;
+    position: absolute;
+    top: 2em;
+    right: 0;
+    z-index: 950;
+}
+
+.admin-tools-block-controls .container-menu .block-component-name {
+    background-color: transparent;
+    color: #000000 !important;
+    display: block;
+    padding: .5em .5em .2em .5em;
+    margin-bottom: .5em;
+    text-decoration: none;
+    border-bottom: #000000 solid 1px;
+}
+
+.admin-tools-block-controls .container-menu ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-tools-block-controls .container-menu ul li {
+    display: block;
+    width: 100%;
+}
+
+.admin-tools-block-controls .container-menu ul li ul {
+    display: block;
+}
+
+.admin-tools-block-controls .container-menu ul li ul li {
+    display: block;
+}
+
+.admin-tools-block-controls .container-menu ul li a,
+.admin-tools-block-controls .container-menu ul li a:link,
+.admin-tools-block-controls .container-menu ul li a:visited,
+.admin-tools-block-controls .container-menu ul li a:active,
+.admin-tools-block-controls .container-menu ul li a:focus {
+    background-color: transparent;
+    color: #000000 !important;
+    display: block;
+    font-weight: bold;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.admin-tools-block-controls .container-menu ul li a:hover {
+    box-shadow: 0 0 1px 1px rgba(127, 127, 127, 1);
+    color: #000000 !important;
+}
+
+/* @todo WHAT is this */
+.admin-tools-plugin-locked {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; /* IE 8 */
+    filter: alpha(opacity=30); /* IE 5-7 */
+    -moz-opacity: 0.3; /* Netscape */
+    -khtml-opacity: 0.3; /* Safari 1.x */
+    opacity: 0.3;
+}

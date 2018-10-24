@@ -1,0 +1,25 @@
+[data-container-id].admin-tools-block-arranging > .row {
+    border: 1px dashed grey;
+    border-bottom: 0;
+    min-height: 3em;
+}
+
+[data-container-id].admin-tools-block-arranging {
+    border-bottom: 1px dashed grey;
+}
+
+.admin-tools-block-arranging [data-block-id] {
+    border-color: transparent;
+}
+
+[data-block-id].admin-tools-block-sort-place-holder {
+    /*float: left;*/
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+/* jQuery css */
+[data-block-id].ui-draggable-dragging {
+    cursor: move;
+    max-width: 300px;
+}

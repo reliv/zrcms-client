@@ -1,0 +1,137 @@
+.zrcms-admin-navigation, .zrcms-admin-navigation ul {
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    border-width: 1px 0;
+    padding-top: 1px;
+}
+
+.zrcms-admin-navigation {
+    float: left;
+}
+
+.zrcms-admin-navigation ul ul {
+    width: 100%;
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    border: solid #00A3E6;
+    border-width: 1px 0;
+}
+
+.zrcms-admin-navigation a {
+    display: block;
+    width: 4em;
+    color: #000000;
+    text-decoration: none;
+    padding: 0.10em 1.2em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.zrcms-admin-navigation li {
+    float: left;
+    padding: 0;
+    width: 8em;
+
+}
+
+.zrcms-admin-navigation li:hover {
+    background: #00A3E6;
+    border-radius: 3px 3px 0 0;
+}
+
+.zrcms-admin-navigation li ul {
+    position: absolute;
+    left: -999em;
+    height: auto;
+    /*width: 250px;*/
+    width: 22.5em;
+    font-weight: normal;
+    border-width: 0.25em;
+    margin: 0;
+    border-radius: 0 10px 10px 5px;
+}
+
+.zrcms-admin-navigation li li:hover {
+    background: #00A3E6;
+    border-radius: 0 0 0 0;
+}
+
+.zrcms-admin-navigation li li {
+    width: 100%;
+}
+
+.zrcms-admin-navigation li ul a {
+    width: 20em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.zrcms-admin-navigation li ul ul {
+    margin: -30px 0 0 232px;
+}
+
+.zrcms-admin-navigation li:hover ul ul, .zrcms-admin-navigation li:hover ul ul ul {
+    left: -999em;
+}
+
+.zrcms-admin-navigation li:hover ul, .zrcms-admin-navigation li li:hover ul, .zrcms-admin-navigation li li li:hover ul {
+    left: auto;
+}
+
+.zrcms-admin-navigation .icon-before a:before{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: .5em;
+}
+
+.zrcms-admin-navigation .icon-after a:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+}
+
+.zrcms-admin-navigation li li.new-page a:after {
+    content: "\e022";
+}
+
+.zrcms-admin-navigation li li.delete-page a:after {
+    content: "\e020";
+}
+
+.zrcms-admin-navigation li li.restore-page a:before,
+.zrcms-admin-navigation li li.revision-page a:before{
+    content: "\e176";
+}
+
+.zrcms-admin-navigation li li.manage-sites a:after{
+    content: "\e135";
+}
+
+.zrcms-admin-navigation li li.create-site a:after{
+    content: "\e081";
+}
+
+.zrcms-admin-navigation li li.copy-pages a:after{
+    content: "\e205";
+}

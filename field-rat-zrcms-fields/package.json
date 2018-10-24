@@ -1,0 +1,4 @@
+{
+  "config-rat-module-config-part": "./moduleConfig.js",
+  "main": "src/index.js"
+}
